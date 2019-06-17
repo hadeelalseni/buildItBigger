@@ -15,7 +15,7 @@ public class MainActivityAndroidLib extends AppCompatActivity {
         Intent intent = getIntent();
         /*String joke = intent.getStringExtra("joke_intent");*/
         String joke = intent.getStringExtra("jokeBackend");
-        
+
         TextView joke_tv = (TextView) findViewById(R.id.joke_tv);
         joke_tv.setText(joke);
     }
